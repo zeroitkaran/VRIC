@@ -19,7 +19,8 @@ func addBackgroundImage(imgUrl: String, placeHolder: String){
     // In case if your bgView frames increases
     backgroundImage.clipsToBounds = true
     backgroundImage.contentMode = .scaleToFill
-        //UIView.ContentMode.scaleAspectFill
+    backgroundImage.alpha = 0.2
+    //UIView.ContentMode.scaleAspectFill
     self.insertSubview(backgroundImage, at: 0)
 
 }

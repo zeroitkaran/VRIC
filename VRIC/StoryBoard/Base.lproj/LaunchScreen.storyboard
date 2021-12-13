@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,20 +21,20 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="qJc-5h-967">
-                                <rect key="frame" x="46" y="262" width="312" height="311"/>
+                                <rect key="frame" x="51" y="-632" width="312" height="2160"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qJc-5h-967" secondAttribute="trailing" constant="56" id="MeD-Kw-Pi3"/>
-                            <constraint firstItem="qJc-5h-967" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="218" id="QDm-26-5Xo"/>
-                            <constraint firstItem="qJc-5h-967" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="RX3-GC-XHS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qJc-5h-967" secondAttribute="trailing" constant="51" id="EAc-In-zBq"/>
+                            <constraint firstItem="qJc-5h-967" firstAttribute="centerX" secondItem="hqi-0f-BsU" secondAttribute="centerX" id="SyR-p3-WQG"/>
                             <constraint firstItem="hqi-0f-BsU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UhL-ix-S2T"/>
+                            <constraint firstItem="qJc-5h-967" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="bPo-Iu-9Fb"/>
                             <constraint firstItem="hqi-0f-BsU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f81-rB-aFl"/>
                             <constraint firstItem="hqi-0f-BsU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="fl4-Zt-qgU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qJc-5h-967" secondAttribute="bottom" constant="289" id="gnQ-dv-EHV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hqi-0f-BsU" secondAttribute="bottom" constant="-34" id="hvA-7H-OD5"/>
+                            <constraint firstItem="qJc-5h-967" firstAttribute="centerY" secondItem="hqi-0f-BsU" secondAttribute="centerY" id="wAo-LF-0GT"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -45,7 +45,7 @@
     </scenes>
     <resources>
         <image name="Background" width="414" height="896"/>
-        <image name="logo" width="312" height="312"/>
+        <image name="logo" width="2160" height="2160"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222AFB6C276724070036C607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AFB6B276724070036C607 /* ViewController.swift */; };
+		222AFB6F27672A6D0036C607 /* Montserrat-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222AFB6E27672A6D0036C607 /* Montserrat-Normal.ttf */; };
+		222AFB7227672F9C0036C607 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222AFB7027672F930036C607 /* Roboto-Medium.ttf */; };
+		222AFB75276730110036C607 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 222AFB74276730110036C607 /* Roboto-Bold.ttf */; };
 		22386EED27608FC100EEC186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22386EEC27608FC100EEC186 /* AppDelegate.swift */; };
 		22386EEF27608FC100EEC186 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22386EEE27608FC100EEC186 /* SceneDelegate.swift */; };
-		22386EF127608FC100EEC186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22386EF027608FC100EEC186 /* ViewController.swift */; };
 		22386EF427608FC100EEC186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22386EF227608FC100EEC186 /* Main.storyboard */; };
 		22386EF627608FCA00EEC186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22386EF527608FCA00EEC186 /* Assets.xcassets */; };
 		22386EF927608FCA00EEC186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22386EF727608FCA00EEC186 /* LaunchScreen.storyboard */; };
@@ -29,10 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		222AFB6B276724070036C607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		222AFB6E27672A6D0036C607 /* Montserrat-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Normal.ttf"; sourceTree = "<group>"; };
+		222AFB7027672F930036C607 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		222AFB74276730110036C607 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		22386EE927608FC100EEC186 /* VRIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22386EEC27608FC100EEC186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22386EEE27608FC100EEC186 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22386EF027608FC100EEC186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22386EF327608FC100EEC186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22386EF527608FCA00EEC186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22386EF827608FCA00EEC186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +81,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		222AFB6D27672A470036C607 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				222AFB74276730110036C607 /* Roboto-Bold.ttf */,
+				222AFB7027672F930036C607 /* Roboto-Medium.ttf */,
+				222AFB6E27672A6D0036C607 /* Montserrat-Normal.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		22386EE027608FC100EEC186 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +117,6 @@
 				2246257C2760DB0D00DB3982 /* AppDelegate */,
 				2246255F2760DA7E00DB3982 /* Helpers */,
 				2246255E2760DA3E00DB3982 /* Resources */,
-				22386EF027608FC100EEC186 /* ViewController.swift */,
 				22386EFA27608FCA00EEC186 /* Info.plist */,
 			);
 			path = VRIC;
@@ -110,6 +125,7 @@
 		2246255E2760DA3E00DB3982 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				222AFB6D27672A470036C607 /* Fonts */,
 				22386EF527608FCA00EEC186 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -219,6 +235,7 @@
 		2246257F2760DB6E00DB3982 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				222AFB6B276724070036C607 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -330,8 +347,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222AFB7227672F9C0036C607 /* Roboto-Medium.ttf in Resources */,
 				22386EF927608FCA00EEC186 /* LaunchScreen.storyboard in Resources */,
+				222AFB75276730110036C607 /* Roboto-Bold.ttf in Resources */,
 				22386EF627608FCA00EEC186 /* Assets.xcassets in Resources */,
+				222AFB6F27672A6D0036C607 /* Montserrat-Normal.ttf in Resources */,
 				22386EF427608FC100EEC186 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,9 +405,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222AFB6C276724070036C607 /* ViewController.swift in Sources */,
 				224625792760DA7F00DB3982 /* LocalStorage.swift in Sources */,
 				224625742760DA7F00DB3982 /* LblTapGesture.swift in Sources */,
-				22386EF127608FC100EEC186 /* ViewController.swift in Sources */,
 				224625882760DCD800DB3982 /* Tabbar Extension.swift in Sources */,
 				2246257B2760DA7F00DB3982 /* Validation.swift in Sources */,
 				224625752760DA7F00DB3982 /* ViewShadow.swift in Sources */,
@@ -554,7 +574,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zeroitSolutions.VRIC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -574,7 +594,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zeroitSolutions.VRIC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
