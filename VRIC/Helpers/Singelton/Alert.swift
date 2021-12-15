@@ -9,11 +9,11 @@ import Foundation
 import UIKit
 //import AlertToast
 
-class CarnivalRaffleSingleton : NSObject{
+class VRICSingleton : NSObject{
     
-    static let sharedInstance = CarnivalRaffleSingleton()
+    static let sharedInstance = VRICSingleton()
     
-    let appName = "Carnival Raffle"
+    let appName = "VRIC"
     
     let HeaderKey = ["Token_key" : "ZGSWl3bgsk19cdk3DS"]
     let GetHeaderKey = ["token_key" : "ZGSWl3bgsk19cdk3DS"]

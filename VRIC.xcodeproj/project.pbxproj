@@ -28,6 +28,8 @@
 		224625882760DCD800DB3982 /* Tabbar Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224625842760DCD800DB3982 /* Tabbar Extension.swift */; };
 		224625892760DCD800DB3982 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224625862760DCD800DB3982 /* APIManager.swift */; };
 		2246258A2760DCD800DB3982 /* FileAPIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224625872760DCD800DB3982 /* FileAPIList.swift */; };
+		2292558727687F4300CE39F3 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292558627687F4300CE39F3 /* TodayViewController.swift */; };
+		2292558A27687F6E00CE39F3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292558927687F6E00CE39F3 /* EventsViewController.swift */; };
 		87A0E0A711792FD1FAA2D3D6 /* Pods_VRIC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A53F8B04C03ACCFEDE83CA /* Pods_VRIC.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,10 @@
 		224625842760DCD800DB3982 /* Tabbar Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tabbar Extension.swift"; sourceTree = "<group>"; };
 		224625862760DCD800DB3982 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		224625872760DCD800DB3982 /* FileAPIList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileAPIList.swift; sourceTree = "<group>"; };
+		22925582276869F500CE39F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22925583276869F500CE39F3 /* credentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		2292558627687F4300CE39F3 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		2292558927687F6E00CE39F3 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		9353CC0CF9086FBBBD8BEAD0 /* Pods-VRIC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRIC.release.xcconfig"; path = "Target Support Files/Pods-VRIC/Pods-VRIC.release.xcconfig"; sourceTree = "<group>"; };
 		ADE86608811054449FA2F2B8 /* Pods-VRIC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRIC.debug.xcconfig"; path = "Target Support Files/Pods-VRIC/Pods-VRIC.debug.xcconfig"; sourceTree = "<group>"; };
 		B3A53F8B04C03ACCFEDE83CA /* Pods_VRIC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				22386EEB27608FC100EEC186 /* VRIC */,
+				22925581276869BD00CE39F3 /* plists */,
 				22386EEA27608FC100EEC186 /* Products */,
 				17D9274225799D71508C806F /* Pods */,
 				E48302424D421174A77AFE43 /* Frameworks */,
@@ -112,12 +119,12 @@
 		22386EEB27608FC100EEC186 /* VRIC */ = {
 			isa = PBXGroup;
 			children = (
+				22386EFA27608FCA00EEC186 /* Info.plist */,
 				2246257E2760DB5800DB3982 /* MVC */,
 				2246257D2760DB3C00DB3982 /* StoryBoard */,
 				2246257C2760DB0D00DB3982 /* AppDelegate */,
 				2246255F2760DA7E00DB3982 /* Helpers */,
 				2246255E2760DA3E00DB3982 /* Resources */,
-				22386EFA27608FCA00EEC186 /* Info.plist */,
 			);
 			path = VRIC;
 			sourceTree = "<group>";
@@ -235,6 +242,8 @@
 		2246257F2760DB6E00DB3982 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2292558827687F4D00CE39F3 /* EventsVc */,
+				2292558527687F0100CE39F3 /* TodayVc */,
 				222AFB6B276724070036C607 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -278,6 +287,31 @@
 				224625872760DCD800DB3982 /* FileAPIList.swift */,
 			);
 			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		22925581276869BD00CE39F3 /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				22925583276869F500CE39F3 /* credentials.plist */,
+				22925582276869F500CE39F3 /* GoogleService-Info.plist */,
+			);
+			path = plists;
+			sourceTree = "<group>";
+		};
+		2292558527687F0100CE39F3 /* TodayVc */ = {
+			isa = PBXGroup;
+			children = (
+				2292558627687F4300CE39F3 /* TodayViewController.swift */,
+			);
+			path = TodayVc;
+			sourceTree = "<group>";
+		};
+		2292558827687F4D00CE39F3 /* EventsVc */ = {
+			isa = PBXGroup;
+			children = (
+				2292558927687F6E00CE39F3 /* EventsViewController.swift */,
+			);
+			path = EventsVc;
 			sourceTree = "<group>";
 		};
 		E48302424D421174A77AFE43 /* Frameworks */ = {
@@ -409,11 +443,13 @@
 				224625792760DA7F00DB3982 /* LocalStorage.swift in Sources */,
 				224625742760DA7F00DB3982 /* LblTapGesture.swift in Sources */,
 				224625882760DCD800DB3982 /* Tabbar Extension.swift in Sources */,
+				2292558727687F4300CE39F3 /* TodayViewController.swift in Sources */,
 				2246257B2760DA7F00DB3982 /* Validation.swift in Sources */,
 				224625752760DA7F00DB3982 /* ViewShadow.swift in Sources */,
 				224625892760DCD800DB3982 /* APIManager.swift in Sources */,
 				224625722760DA7F00DB3982 /* ButtonGradientColor.swift in Sources */,
 				2246257A2760DA7F00DB3982 /* Alert.swift in Sources */,
+				2292558A27687F6E00CE39F3 /* EventsViewController.swift in Sources */,
 				22386EED27608FC100EEC186 /* AppDelegate.swift in Sources */,
 				22386EEF27608FC100EEC186 /* SceneDelegate.swift in Sources */,
 				224625772760DA7F00DB3982 /* BackgroundImage + Extension.swift in Sources */,
@@ -568,13 +604,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8J5PZWQ82G;
 				INFOPLIST_FILE = VRIC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vric;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vric1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,13 +626,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J5PZWQ82G;
 				INFOPLIST_FILE = VRIC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vric;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vric1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
