@@ -30,6 +30,7 @@
 		2246258A2760DCD800DB3982 /* FileAPIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224625872760DCD800DB3982 /* FileAPIList.swift */; };
 		2292558727687F4300CE39F3 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292558627687F4300CE39F3 /* TodayViewController.swift */; };
 		2292558A27687F6E00CE39F3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292558927687F6E00CE39F3 /* EventsViewController.swift */; };
+		2296560F276B014F008D1891 /* TimeCollectionVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296560E276B014F008D1891 /* TimeCollectionVIewCell.swift */; };
 		87A0E0A711792FD1FAA2D3D6 /* Pods_VRIC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A53F8B04C03ACCFEDE83CA /* Pods_VRIC.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		22925583276869F500CE39F3 /* credentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 		2292558627687F4300CE39F3 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		2292558927687F6E00CE39F3 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		2296560E276B014F008D1891 /* TimeCollectionVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionVIewCell.swift; sourceTree = "<group>"; };
 		9353CC0CF9086FBBBD8BEAD0 /* Pods-VRIC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRIC.release.xcconfig"; path = "Target Support Files/Pods-VRIC/Pods-VRIC.release.xcconfig"; sourceTree = "<group>"; };
 		ADE86608811054449FA2F2B8 /* Pods-VRIC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRIC.debug.xcconfig"; path = "Target Support Files/Pods-VRIC/Pods-VRIC.debug.xcconfig"; sourceTree = "<group>"; };
 		B3A53F8B04C03ACCFEDE83CA /* Pods_VRIC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,9 +233,8 @@
 		2246257E2760DB5800DB3982 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				2296560D276B013D008D1891 /* View */,
 				224625822760DCD800DB3982 /* Utility */,
-				224625812760DB8000DB3982 /* Model */,
-				224625802760DB7B00DB3982 /* View */,
 				2246257F2760DB6E00DB3982 /* Controller */,
 			);
 			path = MVC;
@@ -247,20 +248,6 @@
 				222AFB6B276724070036C607 /* ViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		224625802760DB7B00DB3982 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		224625812760DB8000DB3982 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		224625822760DCD800DB3982 /* Utility */ = {
@@ -289,6 +276,14 @@
 			path = "API Manager";
 			sourceTree = "<group>";
 		};
+		22754B20276B597B00483E2A /* TodayVcCells */ = {
+			isa = PBXGroup;
+			children = (
+				2296560E276B014F008D1891 /* TimeCollectionVIewCell.swift */,
+			);
+			path = TodayVcCells;
+			sourceTree = "<group>";
+		};
 		22925581276869BD00CE39F3 /* plists */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +307,14 @@
 				2292558927687F6E00CE39F3 /* EventsViewController.swift */,
 			);
 			path = EventsVc;
+			sourceTree = "<group>";
+		};
+		2296560D276B013D008D1891 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22754B20276B597B00483E2A /* TodayVcCells */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E48302424D421174A77AFE43 /* Frameworks */ = {
@@ -450,6 +453,7 @@
 				224625722760DA7F00DB3982 /* ButtonGradientColor.swift in Sources */,
 				2246257A2760DA7F00DB3982 /* Alert.swift in Sources */,
 				2292558A27687F6E00CE39F3 /* EventsViewController.swift in Sources */,
+				2296560F276B014F008D1891 /* TimeCollectionVIewCell.swift in Sources */,
 				22386EED27608FC100EEC186 /* AppDelegate.swift in Sources */,
 				22386EEF27608FC100EEC186 /* SceneDelegate.swift in Sources */,
 				224625772760DA7F00DB3982 /* BackgroundImage + Extension.swift in Sources */,
