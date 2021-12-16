@@ -51,8 +51,39 @@ class TodayViewController: UIViewController {
         
         
     }
+    
     @IBAction func ActionNotifications(_ sender: Any) {
         self.TodaySearchbar.isHidden = true
+        
+    }
+    
+    
+    @IBAction func ActionTrendMore(_ sender: Any) {
+       
+        
+    }
+    @IBAction func ActionLiveMore(_ sender: Any) {
+       
+        
+    }
+    @IBAction func ActionPodcastMore(_ sender: Any) {
+       
+        
+    }
+    @IBAction func ActionDonateNow(_ sender: Any) {
+       
+        
+    }
+    @IBAction func ActionJoinNow(_ sender: Any) {
+       
+        
+    }
+    @IBAction func ActionSignup(_ sender: Any) {
+       
+        
+    }
+    @IBAction func ActionLikeNow(_ sender: Any) {
+       
         
     }
     
