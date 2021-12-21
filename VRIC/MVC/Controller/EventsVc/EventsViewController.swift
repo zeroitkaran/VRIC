@@ -8,22 +8,47 @@
 import UIKit
 
 class EventsViewController: UIViewController {
-
+    
+    @IBOutlet weak var BtnNotification: UIButton!
+    @IBOutlet weak var BtnSearch: UIButton!
+    @IBOutlet weak var BtnFilter: UIButton!
+    @IBOutlet weak var BtnView: UIButton!
+    @IBOutlet weak var BtnRequestEvent: UIButton!
+    @IBOutlet weak var EventsTableVIew: UITableView!
+    @IBOutlet weak var TodaySearchbar: UISearchBar!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.TodaySearchbar.isHidden = true
     }
     
 
-    /*
-    // MARK: - Navigation
+    
+    
+    
+    
+    @IBAction func ActionSearchBar(_ sender: Any) {self.TodaySearchbar.isHidden = false}
+    @IBAction func ActionNotifications(_ sender: Any){}
+    @IBAction func Actionfilter(_ sender: Any) {}
+    @IBAction func ActionView(_ sender: Any) {}
+    @IBAction func ActionRequestEvent(_ sender: Any){}
+    
+    
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+
+extension EventsViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let EventCell = tableView.dequeueReusableCell(withIdentifier: "EventsTableViewCell", for: indexPath) as! EventsTableViewCell
+        
+        return EventCell
+    }
+    
+    
+    
+    
+    
 }

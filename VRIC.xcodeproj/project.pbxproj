@@ -28,6 +28,15 @@
 		224625882760DCD800DB3982 /* Tabbar Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224625842760DCD800DB3982 /* Tabbar Extension.swift */; };
 		224625892760DCD800DB3982 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224625862760DCD800DB3982 /* APIManager.swift */; };
 		2246258A2760DCD800DB3982 /* FileAPIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224625872760DCD800DB3982 /* FileAPIList.swift */; };
+		224C591F276C4F89004496E0 /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C591E276C4F89004496E0 /* EventsTableViewCell.swift */; };
+		224C5927276C6B53004496E0 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C5926276C6B53004496E0 /* PaymentViewController.swift */; };
+		224C5929276C6B75004496E0 /* MembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C5928276C6B75004496E0 /* MembersViewController.swift */; };
+		224C592B276C6B82004496E0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C592A276C6B82004496E0 /* MenuViewController.swift */; };
+		224C592D276C6BA2004496E0 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C592C276C6BA2004496E0 /* CommunityViewController.swift */; };
+		224C592F276C6BBA004496E0 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C592E276C6BBA004496E0 /* NotificationViewController.swift */; };
+		224C5932276C6BF0004496E0 /* ExtraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C5931276C6BF0004496E0 /* ExtraViewController.swift */; };
+		224C5936276C96E7004496E0 /* LatestPostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C5934276C96E7004496E0 /* LatestPostsTableViewCell.swift */; };
+		224C5937276C96E7004496E0 /* LatestPostsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224C5935276C96E7004496E0 /* LatestPostsTableViewCell.xib */; };
 		2292558727687F4300CE39F3 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292558627687F4300CE39F3 /* TodayViewController.swift */; };
 		2292558A27687F6E00CE39F3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292558927687F6E00CE39F3 /* EventsViewController.swift */; };
 		2296560F276B014F008D1891 /* TimeCollectionVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296560E276B014F008D1891 /* TimeCollectionVIewCell.swift */; };
@@ -59,6 +68,15 @@
 		224625842760DCD800DB3982 /* Tabbar Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tabbar Extension.swift"; sourceTree = "<group>"; };
 		224625862760DCD800DB3982 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		224625872760DCD800DB3982 /* FileAPIList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileAPIList.swift; sourceTree = "<group>"; };
+		224C591E276C4F89004496E0 /* EventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
+		224C5926276C6B53004496E0 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		224C5928276C6B75004496E0 /* MembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersViewController.swift; sourceTree = "<group>"; };
+		224C592A276C6B82004496E0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		224C592C276C6BA2004496E0 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		224C592E276C6BBA004496E0 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		224C5931276C6BF0004496E0 /* ExtraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraViewController.swift; sourceTree = "<group>"; };
+		224C5934276C96E7004496E0 /* LatestPostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestPostsTableViewCell.swift; sourceTree = "<group>"; };
+		224C5935276C96E7004496E0 /* LatestPostsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LatestPostsTableViewCell.xib; sourceTree = "<group>"; };
 		22925582276869F500CE39F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		22925583276869F500CE39F3 /* credentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 		2292558627687F4300CE39F3 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -245,9 +263,15 @@
 		2246257F2760DB6E00DB3982 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				224C5930276C6BCE004496E0 /* SingInVc */,
+				224C5925276C6B1F004496E0 /* PaymentVc */,
+				224C5924276C6B0C004496E0 /* MemberVc */,
+				224C5923276C6B03004496E0 /* MenuVc */,
+				224C5922276C6AF7004496E0 /* CommunityVc */,
+				224C5921276C6AE7004496E0 /* Notifications */,
 				2292558827687F4D00CE39F3 /* EventsVc */,
 				2292558527687F0100CE39F3 /* TodayVc */,
-				222AFB6B276724070036C607 /* ViewController.swift */,
+				224C5931276C6BF0004496E0 /* ExtraViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,6 +300,71 @@
 				224625872760DCD800DB3982 /* FileAPIList.swift */,
 			);
 			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		224C591D276C4F54004496E0 /* EventVcCells */ = {
+			isa = PBXGroup;
+			children = (
+				224C591E276C4F89004496E0 /* EventsTableViewCell.swift */,
+			);
+			path = EventVcCells;
+			sourceTree = "<group>";
+		};
+		224C5921276C6AE7004496E0 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				224C592E276C6BBA004496E0 /* NotificationViewController.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		224C5922276C6AF7004496E0 /* CommunityVc */ = {
+			isa = PBXGroup;
+			children = (
+				224C592C276C6BA2004496E0 /* CommunityViewController.swift */,
+			);
+			path = CommunityVc;
+			sourceTree = "<group>";
+		};
+		224C5923276C6B03004496E0 /* MenuVc */ = {
+			isa = PBXGroup;
+			children = (
+				224C592A276C6B82004496E0 /* MenuViewController.swift */,
+			);
+			path = MenuVc;
+			sourceTree = "<group>";
+		};
+		224C5924276C6B0C004496E0 /* MemberVc */ = {
+			isa = PBXGroup;
+			children = (
+				224C5928276C6B75004496E0 /* MembersViewController.swift */,
+			);
+			path = MemberVc;
+			sourceTree = "<group>";
+		};
+		224C5925276C6B1F004496E0 /* PaymentVc */ = {
+			isa = PBXGroup;
+			children = (
+				224C5926276C6B53004496E0 /* PaymentViewController.swift */,
+			);
+			path = PaymentVc;
+			sourceTree = "<group>";
+		};
+		224C5930276C6BCE004496E0 /* SingInVc */ = {
+			isa = PBXGroup;
+			children = (
+				222AFB6B276724070036C607 /* ViewController.swift */,
+			);
+			path = SingInVc;
+			sourceTree = "<group>";
+		};
+		224C5933276C969B004496E0 /* CommunityVcCella */ = {
+			isa = PBXGroup;
+			children = (
+				224C5934276C96E7004496E0 /* LatestPostsTableViewCell.swift */,
+				224C5935276C96E7004496E0 /* LatestPostsTableViewCell.xib */,
+			);
+			path = CommunityVcCella;
 			sourceTree = "<group>";
 		};
 		22754B20276B597B00483E2A /* TodayVcCells */ = {
@@ -314,7 +403,12 @@
 		2296560D276B013D008D1891 /* View */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				88805895276C7FD1000BB0EC /* TimeViewCircle */,
+=======
+				224C5933276C969B004496E0 /* CommunityVcCella */,
+				224C591D276C4F54004496E0 /* EventVcCells */,
+>>>>>>> main
 				22754B20276B597B00483E2A /* TodayVcCells */,
 			);
 			path = View;
@@ -399,6 +493,7 @@
 				22386EF927608FCA00EEC186 /* LaunchScreen.storyboard in Resources */,
 				222AFB75276730110036C607 /* Roboto-Bold.ttf in Resources */,
 				22386EF627608FCA00EEC186 /* Assets.xcassets in Resources */,
+				224C5937276C96E7004496E0 /* LatestPostsTableViewCell.xib in Resources */,
 				222AFB6F27672A6D0036C607 /* Montserrat-Normal.ttf in Resources */,
 				22386EF427608FC100EEC186 /* Main.storyboard in Resources */,
 			);
@@ -453,20 +548,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224C5936276C96E7004496E0 /* LatestPostsTableViewCell.swift in Sources */,
 				222AFB6C276724070036C607 /* ViewController.swift in Sources */,
 				224625792760DA7F00DB3982 /* LocalStorage.swift in Sources */,
+				224C592F276C6BBA004496E0 /* NotificationViewController.swift in Sources */,
+				224C5932276C6BF0004496E0 /* ExtraViewController.swift in Sources */,
 				224625742760DA7F00DB3982 /* LblTapGesture.swift in Sources */,
 				224625882760DCD800DB3982 /* Tabbar Extension.swift in Sources */,
 				2292558727687F4300CE39F3 /* TodayViewController.swift in Sources */,
 				2246257B2760DA7F00DB3982 /* Validation.swift in Sources */,
 				88805897276C8009000BB0EC /* TimeView.swift in Sources */,
 				224625752760DA7F00DB3982 /* ViewShadow.swift in Sources */,
+				224C5927276C6B53004496E0 /* PaymentViewController.swift in Sources */,
 				224625892760DCD800DB3982 /* APIManager.swift in Sources */,
 				224625722760DA7F00DB3982 /* ButtonGradientColor.swift in Sources */,
+				224C5929276C6B75004496E0 /* MembersViewController.swift in Sources */,
 				2246257A2760DA7F00DB3982 /* Alert.swift in Sources */,
 				2292558A27687F6E00CE39F3 /* EventsViewController.swift in Sources */,
+				224C592D276C6BA2004496E0 /* CommunityViewController.swift in Sources */,
 				2296560F276B014F008D1891 /* TimeCollectionVIewCell.swift in Sources */,
 				22386EED27608FC100EEC186 /* AppDelegate.swift in Sources */,
+				224C592B276C6B82004496E0 /* MenuViewController.swift in Sources */,
+				224C591F276C4F89004496E0 /* EventsTableViewCell.swift in Sources */,
 				22386EEF27608FC100EEC186 /* SceneDelegate.swift in Sources */,
 				224625772760DA7F00DB3982 /* BackgroundImage + Extension.swift in Sources */,
 				224625782760DA7F00DB3982 /* ProgressBar.swift in Sources */,
