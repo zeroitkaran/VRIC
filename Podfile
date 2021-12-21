@@ -15,6 +15,7 @@ pod 'Firebase/Crashlytics'
 pod 'Kingfisher'
 pod 'Alamofire', '~> 4.0'
 pod 'FBSDKLoginKit'
-    
+pod "MBCircularProgressBar"
+pod 'MZTimerLabel'    
 
 end

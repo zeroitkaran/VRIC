@@ -7,13 +7,17 @@
 
 import UIKit
 
+
 class TimeCollectionVIewCell: UICollectionViewCell {
     
     @IBOutlet weak var LblNext: UILabel!
     @IBOutlet weak var LblCity: UILabel!
     @IBOutlet weak var LblTime: UILabel!
-
+    @IBOutlet var ViewTime: TimeView!
+    @IBOutlet var timeleft: UILabel!
+    @IBOutlet var sessionName: UILabel!
 }
+
 
 
 class EventsCollectionVIewCell: UICollectionViewCell {

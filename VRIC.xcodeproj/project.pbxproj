@@ -32,6 +32,7 @@
 		2292558A27687F6E00CE39F3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292558927687F6E00CE39F3 /* EventsViewController.swift */; };
 		2296560F276B014F008D1891 /* TimeCollectionVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296560E276B014F008D1891 /* TimeCollectionVIewCell.swift */; };
 		87A0E0A711792FD1FAA2D3D6 /* Pods_VRIC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A53F8B04C03ACCFEDE83CA /* Pods_VRIC.framework */; };
+		88805897276C8009000BB0EC /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88805896276C8009000BB0EC /* TimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		2292558627687F4300CE39F3 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		2292558927687F6E00CE39F3 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		2296560E276B014F008D1891 /* TimeCollectionVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionVIewCell.swift; sourceTree = "<group>"; };
+		88805896276C8009000BB0EC /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		9353CC0CF9086FBBBD8BEAD0 /* Pods-VRIC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRIC.release.xcconfig"; path = "Target Support Files/Pods-VRIC/Pods-VRIC.release.xcconfig"; sourceTree = "<group>"; };
 		ADE86608811054449FA2F2B8 /* Pods-VRIC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRIC.debug.xcconfig"; path = "Target Support Files/Pods-VRIC/Pods-VRIC.debug.xcconfig"; sourceTree = "<group>"; };
 		B3A53F8B04C03ACCFEDE83CA /* Pods_VRIC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -312,9 +314,18 @@
 		2296560D276B013D008D1891 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				88805895276C7FD1000BB0EC /* TimeViewCircle */,
 				22754B20276B597B00483E2A /* TodayVcCells */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		88805895276C7FD1000BB0EC /* TimeViewCircle */ = {
+			isa = PBXGroup;
+			children = (
+				88805896276C8009000BB0EC /* TimeView.swift */,
+			);
+			path = TimeViewCircle;
 			sourceTree = "<group>";
 		};
 		E48302424D421174A77AFE43 /* Frameworks */ = {
@@ -448,6 +459,7 @@
 				224625882760DCD800DB3982 /* Tabbar Extension.swift in Sources */,
 				2292558727687F4300CE39F3 /* TodayViewController.swift in Sources */,
 				2246257B2760DA7F00DB3982 /* Validation.swift in Sources */,
+				88805897276C8009000BB0EC /* TimeView.swift in Sources */,
 				224625752760DA7F00DB3982 /* ViewShadow.swift in Sources */,
 				224625892760DCD800DB3982 /* APIManager.swift in Sources */,
 				224625722760DA7F00DB3982 /* ButtonGradientColor.swift in Sources */,
