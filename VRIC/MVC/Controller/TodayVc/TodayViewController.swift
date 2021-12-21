@@ -36,7 +36,6 @@ class TodayViewController: UIViewController {
     @IBOutlet weak var UpcomingPageVIew: UIPageControl!
     @IBOutlet weak var RamadanPageView: UIPageControl!
     @IBOutlet weak var ImgJoinNow: UIImageView!
-    
     @IBOutlet weak var ImgNewsLetter: UIImageView!
     
     // @IBOutlet weak var BtnPodcastMore: UIButton!
